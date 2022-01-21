@@ -1,4 +1,3 @@
-<script>
 window.addEventListener('load', () => {
   // Get params from the URL
 var getParamsArray = function (url) {
@@ -22,11 +21,7 @@ var el = document.querySelector('.text-field_search');
 el.dispatchEvent(new Event('input', { bubbles: true }));
 
 })
-</script>
 
-<!-- Hosted Library script file on CDN for free -->
-<script src="https://cdn.finsweet.com/files/cmslibrary-v1.8.js"></script>
-<script>
 (function() {
 	// create a new Library instance and store it in a variable called "projectsGrid"
 	var projectsGrid = new FsLibrary('.full-list')
@@ -52,9 +47,7 @@ el.dispatchEvent(new Event('input', { bubbles: true }));
 			}
   })
 })();
-</script>
 
-<script>
 // immediately/self invoked function. This function executes right away
 (async function() {
   // create a new Library instance and store it in a variable called "customBlogPosts"
@@ -67,4 +60,3 @@ el.dispatchEvent(new Event('input', { bubbles: true }));
      nestTarget: '.multi-ref-target'  // where we paste the items from nestSource
   })
 })();
-</script>
